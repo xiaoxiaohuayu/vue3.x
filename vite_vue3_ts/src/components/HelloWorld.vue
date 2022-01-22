@@ -9,7 +9,7 @@ const count = ref(0);
 <template>
   <h1>{{ msg }}</h1>
 
-  <p>
+  <p class="title">
     Recommended IDE setup:
     <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
     +
@@ -17,7 +17,7 @@ const count = ref(0);
   </p>
 
   <p>See <code>README.md</code> for more information.</p>
-  <p>测试格式化和eslint的格式化和校验位</p>
+  <p>测试格式化和eslint的格式化和校验1</p>
   <p>
     <a href="https://vitejs.dev/guide/features.html" target="_blank"> Vite Docs </a>
     |
@@ -31,11 +31,13 @@ const count = ref(0);
   </p>
 </template>
 
-<style scoped>
+<style lang="less" scoped>
 a {
   color: #42b983;
 }
-
+.title {
+  // color:@color_
+}
 label {
   margin: 0 0.5em;
   font-weight: bold;
