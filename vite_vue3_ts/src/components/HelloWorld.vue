@@ -7,7 +7,7 @@ const count = ref(0);
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+  <h1 class="AAA">{{ msg }}</h1>
 
   <p class="title">
     Recommended IDE setup:
@@ -17,7 +17,7 @@ const count = ref(0);
   </p>
 
   <p>See <code>README.md</code> for more information.</p>
-  <p>测试格式化和eslint的格式化和校验1</p>
+  <p class="title2">测试格式化和eslint的格式化和校验1</p>
   <p>
     <a href="https://vitejs.dev/guide/features.html" target="_blank"> Vite Docs </a>
     |
@@ -30,13 +30,20 @@ const count = ref(0);
     <code>components/HelloWorld.vue</code> to test hot module replacement.
   </p>
 </template>
+<script lang="ts">
+
+</script>
 
 <style lang="less" scoped>
 a {
   color: #42b983;
 }
 .title {
-  // color:@color_
+  color:@color_
+}
+
+.title2{
+  color:@color_1
 }
 label {
   margin: 0 0.5em;
