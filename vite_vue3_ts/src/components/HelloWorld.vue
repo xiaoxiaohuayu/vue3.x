@@ -8,42 +8,19 @@ const count = ref(0);
 
 <template>
   <h1 class="AAA">{{ msg }}</h1>
-
-  <p class="title">
-    Recommended IDE setup:
-    <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
-    +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
-  </p>
-
-  <p>See <code>README.md</code> for more information.</p>
-  <p class="title2">测试格式化和eslint的格式化和校验1</p>
-  <p>
-    <a href="https://vitejs.dev/guide/features.html" target="_blank"> Vite Docs </a>
-    |
-    <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Docs</a>
-  </p>
-
-  <button type="button" @click="count++">count is: {{ count }}</button>
-  <p>
-    Edit
-    <code>components/HelloWorld.vue</code> to test hot module replacement.
-  </p>
 </template>
-<script lang="ts">
-
-</script>
+<script lang="ts"></script>
 
 <style lang="less" scoped>
 a {
   color: #42b983;
 }
 .title {
-  color:@color_
+  color: @color_;
 }
 
-.title2{
-  color:@color_1
+.title2 {
+  color: @color_1;
 }
 label {
   margin: 0 0.5em;
